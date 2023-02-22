@@ -1,0 +1,52 @@
+.main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    max-width: 90vw;
+    text-align: center;
+    margin: 15px 0 0px 0;
+    font-size: 40px;
+}
+
+.description {
+    max-width: 75vw;
+    margin: 0px;
+    padding: 0px 40px 0px 0px;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.description li{
+    list-style: inside;
+}
+
+.description a{
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+    .title {
+        font-size: 30px;
+    }
+    .description{
+        max-width: 100vw;
+        font-size: 1.2rem;
+        padding: 0px 40px 0px 0px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .title {
+        font-size: 25px;
+    }
+    .description{
+        max-width: 100vw;
+        font-size: 1rem;
+        padding: 0px 40px 0px 0px;
+    }
+}

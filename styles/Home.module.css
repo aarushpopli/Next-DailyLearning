@@ -1,0 +1,109 @@
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  margin: 10px 0px 25px 0px;
+  font-size: 1.2rem;
+}
+
+.mainnav ul {
+  padding: 0;
+  margin: 5px 0px 5px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.mainnav ul li {
+  margin: 25px 25px 5px 25px;
+  list-style: none;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.image {
+  border-radius: 500px;
+}
+
+.blogs {
+  max-width: 75vw;
+  margin-bottom: 20px;
+}
+
+.badge {
+  display: inline-block;
+  line-height: 1.2rem;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  background-color: #212529;
+  color: #f7f7f7;
+  border: 0px;
+  border-radius: 5px;
+  cursor: default;
+  padding: 10px 20px 10px 20px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: inherit;
+  margin: 10px;
+}
+
+.info{
+  width: 70vw;
+  margin: 20px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .title {
+    margin: 0;
+    font-size: 3rem;
+  }
+
+  .description {
+    margin: 10px 0px 25px 0px;
+    font-size: 1.2rem;
+  }
+
+  .info{
+    width: 90vw;
+    margin: 20px;
+    text-align: center;
+  }
+
+  .badge{
+    font-size: 15px;
+    padding: 5px 10px 5px 10px;
+    margin: 5px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .title {
+    margin: 0;
+    font-size: 2.25rem;
+  }
+
+  .description {
+    margin: 10px 0px 25px 0px;
+    font-size: 0.85rem;
+  }
+
+  .mainnav ul li {
+    margin: 25px 10px 5px 10px;
+  }
+}

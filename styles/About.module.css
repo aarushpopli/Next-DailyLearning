@@ -1,0 +1,46 @@
+.container {
+    max-width: 75vw;
+    width: 100%;
+    margin: 10px auto 10px auto;
+    padding: 10px 0.75rem 10px 0.75rem;
+}
+
+.heading {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0px 0px 5px 0px;
+}
+
+.text {
+    font-size: 1.25rem;
+    margin: 10px 0px 10px 0px;
+}
+
+.badge {
+    display: inline-block;
+    line-height: 1.2rem;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    background-color: #212529;
+    color: #f7f7f7;
+    border: 0px;
+    border-radius: 5px;
+    cursor: default;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: inherit;
+    margin: 20px 10px 20px 10px;
+}
+
+@media only screen and (max-width: 400px) {
+    .heading {
+        font-size: 27px;
+    }
+
+    .text {
+        font-size: 1rem;
+    }
+}
